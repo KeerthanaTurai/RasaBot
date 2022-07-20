@@ -1,0 +1,297 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: position
+  examples: |
+    - who is ceo of accolite?
+    - ceo
+    - CEO
+    - Ceo of Accolite
+    - Who started accolite
+    - Leela Khaza
+    
+- intent: board
+  examples: |
+    - Who are the board members of Accolite
+    - board members
+    - Accolite Board members
+
+- intent: history
+  examples: |
+    - When was accolite established?
+    - When was accolite started?
+    - When was Accolite founded?
+
+- intent: vision
+  examples: |
+    - What is the vision of Accolite?
+    - Accolite vision
+    - vision of accolite
+
+- intent: services
+  examples: |
+    - Services at Accolite?
+    - What are the available services in Accolite?
+    - What kind of services does Accolite offer?
+
+- intent: industries
+  examples: |
+    - What kind of industries does Accolite work with?
+    - What kind of BUs does Accolite work with?
+    - Industries that Accolite is working?
+    - Industries at Accolite
+    - Various business units at Accolite
+    - industries
+    - business units
+    - BUs
+
+- intent: products
+  examples: |
+    - What are the products of Accolite?
+    - accolite products
+    - products
+
+- intent: Eduthrill
+  examples: |
+    - What is Eduthrill?
+    - Eduthrill
+    - About Eduthrill
+    - Use of Eduthrill
+
+- intent: Codelyzer
+  examples: |
+    - What is Codelyzer?
+    - Codelyzer
+    - About Codelyzer
+
+- intent: codelyzerfeature
+  examples: |
+    - What are the features of Codelyzer
+    - Features of Codelyzer
+    - Why to use Codelyzer?
+
+- intent: copperegg
+  examples: |
+    - What is CopperEgg?
+    - Tell me something about Copperegg
+    - CopperEgg
+    - Features of Copperegg
+
+- intent: locations
+  examples: |
+    - what are the locations of accolite in India?
+    - Accolite India loactions
+    - Offices in India
+    - Branches in India
+
+- intent: careers
+  examples: |
+    - Are there any openings in Accolite?
+    - careers at accolite
+    - Career options in Accolite?
+    - Roles available in Accolite?
+    - Openings in Accolite
+    - Job opportunites in accolite
+
+- intent: opening_helpdesk
+  examples: |
+    - Whom can I contact for job opportunities?
+    - Whom should I mail for job opportunites?
+
+- intent: shecodes
+  examples: |
+    - What is SheCodes?
+    - Who can apply for SheCodes?
+    - How can I apply for SheCodes?
+    - Where can I apply for SheCodes?
+
+- intent: helpdesk
+  examples: |
+    - help support
+    - how to contact for support
+    - helpdesk mail ids
+    - IT support
+
+- intent: AIMS
+  examples: |
+    - What is AIMS?
+    - Who can use AIMS?
+    - AIMS
+    - AIMS full form
+
+- intent: timesheet_filling
+  examples: |
+    - How to fill timesheets?
+    - How can i fill timesheets?
+    - Where can i fill my timesheets?
+    - Filling timesheets
+
+- intent: approval
+  examples: |
+    - Who can approve my attendance?
+    - Who can approve my timesheets?
+    - who can approve my darwinbox attendance?
+    - Who can approve my leave?
+
+- intent: raise_ticket
+  examples: |
+    - What is the status of my raised ticket?
+    - list of my raised tickets
+    - Who is assigned to my issue?
+
+- intent: holidays
+  examples: |
+    - Where can i find list of holidays?
+    - How many holidays are there in this month?
+    - How many holidays are there in this year
+    - List of holidays","Holidays list
+    - Can you give me the list of holidays?
+
+- intent: tutorials
+  examples: |
+    - trainings
+    - Where can I access tutorials
+    - How to access Darwin Box Tutorials?
+    - How to access timesheet tutorials?
+    - Where can I access swift timesheet tutorials?
+    - How to access BMS Tutorials?
+    - Where can I access BMS Tutorials?
+
+- intent: notice_period
+  examples: |
+    - What is the duration of my notice period?
+
+- intent: resignation
+  examples: |
+    - Whom should I contact for resignation process?
+    - Who can help me with my resignation
+    - Where can I apply for resignation?
+
+- intent: leave_policies
+  examples: |
+    - What are the leave policies in accolite?
+    - How many casual leaves are allowed?
+    - Leave policies
+    - Maternity leaves
+    - Leave
+
+- intent: referral
+  examples: |
+    - How can I refer a friend?
+    - refer a friend
+    - referral
+
+- intent: intern
+  examples: |
+    - Internship program at Accolite?
+    - Does Accolite hire interns?
+    - internship at accolite?
+
+- intent: intern_duration
+  examples: |
+     - What is the internship duration?
+     - internship duration period?
+     - internship period
+
+- intent: connect
+  examples: |
+    - Accolite digital connect
+    - What is accolite digital connect?
+    - List of ongoing webinars
+    - What are the ongoing webinars?
+
+- intent: leave_application
+  examples: |
+    - Where can I apply for leave?
+    - leave application
+    - How to apply for a leave?

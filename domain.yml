@@ -1,0 +1,89 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - thanks
+  - position
+  - board
+  - history
+  - vision
+  - services
+  - industries
+  - products
+  - Eduthrill
+  - Codelyzer
+  - Codelyzerfeature
+  - copperegg
+  - locations
+  - careers
+  - opening_helpdesk
+  - shecodes
+  - helpdesk
+  - AIMS
+  - timesheet_filling
+  - approval
+  - raise_ticket
+  - ticket_status
+  - holidays
+  - tutorials
+  - notice_period
+  - resignation
+  - leave_policies
+  - referral
+  - intern
+  - intern_duration
+  - connect
+  - leave_application
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_improve:
+  - text: "We'll consider your feedback and look into it"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_position:
+  - text: "The CEO of Accolite is Mr. Leela Kaza, Chairman & CEO, Accolite Digital, leads a formidable team of world-class IT professionals who are bringing in key differentiation into the market by solving the most complex digital problems through AI-enabled digital transformation services."
+ 
+  utter_board:
+  - text: "The board members of Accolite are Arjun Malhotra, Bask Iyer, Mark Berthiaume, Michael Baresich, Mittu Sridhara, Per Borgklint"
+
+  utter_history:
+  - text: "Accolite Digital was founded in 2007 and headquartered in Addison, TX, Accolite Digital is a digital transformation services provider to the banking and financial services, technology, healthcare, communications and media, and logistics industries"
+
+  utter_vision:
+  - text: "The vision of Accolite is to be an innovative, best-in-class digital transformation services provider led by design thinking and also to help our clients - Fortune 500 companies - solve complex business problems through human-centric design and product innovation approach."
+
+  utter_services:
+  - text: "Accolite Digital provides services like Digital Product Engineering, Cloud Engineering and DevOps, Data and AI, Customer Experience and Design, Cybersecurity"
+
+  utter_industries:
+  - text: "Accolite works with industries like Banking and Financial Services, \nInsurance, \nTechnology, \nMedia and Telecom, \nHealthcare, \nLogistics"
+
+  utter_products:
+  - text: "Products of Accolite are EduThrill, Codelyzer, CopperEgg"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
